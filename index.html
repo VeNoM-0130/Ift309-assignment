@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Registration</title>
+</head>
+<body>
+
+  <header>
+    <h1>Student Registration</h1>
+  </header>
+
+  <main>
+    <form action="#" method="post">
+
+      <fieldset>
+        <legend>Personal Details</legend>
+
+        <p>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </p>
+
+        <p>
+          <label for="matric">Matric No.:</label>
+          <input type="text" id="matric" name="matric" required>
+        </p>
+
+        <p>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </p>
+
+        <p>
+          <label for="phone">Phone No.:</label>
+          <input type="tel" id="phone" name="phone" required>
+        </p>
+      </fieldset>
+
+      <fieldset>
+        <legend>Gender</legend>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Academic Details</legend>
+
+        <p>
+          <label for="department">Department:</label>
+          <select id="department" name="department" required>
+            <option value="">-- Select Department --</option>
+            <option value="computer-science">Computer Science</option>
+            <option value="cybersecurity">Cybersecurity</option>
+            <option value="software-engineering">Software Engineering</option>
+            <option value="information-technology">Information Technology</option>
+            <option value="data-science">Data Science</option>
+            <option value="accounting">Accounting</option>
+            <option value="business-management">Business Management</option>
+          </select>
+        </p>
+
+        <p>
+          <label for="programme">Programme:</label>
+          <select id="programme" name="programme" required>
+            <option value="">-- Select Programme --</option>
+            <option value="full-time">Full-time</option>
+            <option value="weekday">Weekday</option>
+            <option value="weekend">Weekend</option>
+          </select>
+        </p>
+      </fieldset>
+
+      <button type="submit">Submit</button>
+
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Student Registration</p>
+  </footer>
+
+</body>
+</html>
